@@ -6,6 +6,38 @@
     <title>Encuesta</title>
 </head>
 <body>
-    
+    <h1 id="title">Encuesta 2020</h1>
+    <p id="description">Encuesta para conocer la decisón de compra de los consumidores del supermercado</p>
+    <form action="" id="survey-form">
+        <label for="" id="name-label">Nombre:</label>
+        <input  id="name" required placeholder="ingrese su nombre">
+        <label for="" id="email-label">Email:</label>
+        <input type="email" required id="email" placeholder="ingrese su email">
+        <label for="" id="number-label">Número:</label>
+        <input type="number" id="number" placeholder="ingrese su número" min="1" max="5"> <!-- paso-8 -->
+        <select name=""  id="dropdown" >
+            <option value="">seleccione</option>
+            <option value="">mujer</option>
+            <option value="">hombre</option>
+        </select>
+        <fieldset id="group1">
+            <input type="radio" value="value1" name="group1">
+            <input type="radio" value="value2" name="group1">
+          </fieldset>
+        
+          <fieldset id="group2">
+            <input type="radio" value="value1" name="group2">
+            <input type="radio" value="value2" name="group2">
+            <input type="radio" value="value3" name="group2">
+          </fieldset>
+          <fieldset>
+              <input type="checkbox" value="check1">
+              <input type="checkbox"value="check2">
+              <input type="checkbox"value="check3">
+          </fieldset>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button id="submit">Enviar</button>
+    </form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
